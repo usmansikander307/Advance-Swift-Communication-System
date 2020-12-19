@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain"
+    android:orientation="vertical"
+    tools:context=".UploadResultFragment">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="ENTER STUDENT RESULT"
+        android:textSize="20dp"
+        android:layout_margin="30dp"
+        android:textColor="#ffff"
+        />
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Enter Student Name"
+                android:inputType="text"
+                android:id="@+id/c0"/>
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter Student AridNum (15-Arid-1255*)"
+                android:id="@+id/c0l"/>
+            <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter Student Class"
+        android:id="@+id/cl"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Student Shift"
+        android:inputType="text"
+        android:id="@+id/shift"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter Student Subject"
+        android:id="@+id/cr1"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter Student Marks"
+        android:id="@+id/cr1num"/>
+
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter Student Subject"
+    android:id="@+id/cr2"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter Student Marks"
+        android:id="@+id/cr2num"
+        />
+            <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="Enter Student Subject"
+    android:id="@+id/cr3"/>
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:hint="Enter Student Marks"
+        android:inputType="number"
+    android:id="@+id/cr3num"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter Student Subject"
+        android:id="@+id/cr4"/>
+            <EditText
+    android:layout_width="match_parent"
+                android:inputType="number"
+    android:layout_height="wrap_content"
+                android:hint="Enter Student Marks"
+    android:id="@+id/cr4num"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="text"
+        android:hint="Enter Student Subject"
+        android:id="@+id/cr5"/>
+    <EditText
+    android:layout_width="match_parent"
+        android:inputType="number"
+    android:layout_height="wrap_content"
+        android:hint="Enter Student Marks"
+    android:id="@+id/cr5num"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:inputType="text"
+        android:layout_height="wrap_content"
+        android:hint="Enter Student Subject"
+        android:id="@+id/cr6"/>
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:inputType="number"
+        android:hint="Enter Student Marks"
+    android:id="@+id/cr6num"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Upload Result"
+        android:id="@+id/btnUpload"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain"
+    tools:context=".UploadNotification"
+    android:orientation="vertical">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="UPLOAD NOTIFICATIONS"
+        android:textSize="25dp"
+        android:textColor="#ffff"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginHorizontal="10dp"
+
+        android:id="@+id/not"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="150dp"
+        android:src="@drawable/splashscreen"
+        android:id="@+id/sp"
+        android:layout_below="@+id/not"/>
+
+
+    <Spinner
+        android:id="@+id/admin"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_margin="4dp"
+        android:layout_marginTop="50dp"
+        android:layout_below="@+id/sp"
+        android:textAlignment="center"></Spinner>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/admin"
+        android:textSize="20sp"
+        android:hint="DATE"
+        android:layout_margin="40dp"
+        android:id="@+id/date"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/body"
+        android:layout_margin="20dp"
+        android:hint="ENTER NOTIFICATIONS"
+        android:inputType="text"
+        android:layout_below="@+id/date"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Post Notification"
+        android:layout_below="@+id/body"
+        android:id="@+id/btnUpload"/>
+
+</RelativeLayout>

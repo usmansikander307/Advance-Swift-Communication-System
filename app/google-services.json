@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "721792988411",
+    "firebase_url": "https://ascs-5ca4f.firebaseio.com",
+    "project_id": "ascs-5ca4f",
+    "storage_bucket": "ascs-5ca4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:721792988411:android:277dfd261e1360c4",
+        "android_client_info": {
+          "package_name": "com.example.cancer.ascs"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "721792988411-fa7op2m1fgv303vjag5oevefc19bqab6.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.cancer.ascs",
+            "certificate_hash": "eba9ea286aa6d810e33d00763ef9fd7f9f135dec"
+          }
+        },
+        {
+          "client_id": "721792988411-i6qni49nmo682t0gbh9o3hc66i1k30v1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCXPP--sZGr6TzLay1zfxP2BjPbDIcFN8U"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "721792988411-i6qni49nmo682t0gbh9o3hc66i1k30v1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

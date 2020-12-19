@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/Do_Schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="Manage Schedule" />
+        <item
+            android:id="@+id/Do_student"
+            android:icon="@drawable/admin_manage"
+            android:title="Manage Student" />
+        <item
+            android:id="@+id/Do_result"
+            android:icon="@drawable/ic_result"
+            android:title="Upload Result" />
+        <item
+            android:id="@+id/Do_notification"
+            android:icon="@drawable/ic_notification"
+            android:title="View Notification" />
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/Logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+
+        </menu>
+    </item>
+
+</menu>

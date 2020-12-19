@@ -1,0 +1,179 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain"
+    tools:context=".UploadSchedule"
+    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:id="@+id/img"
+        android:src="@drawable/splashscreen"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img"
+        android:text="UPLOAD SCHEDULE"
+        android:textSize="25sp"
+        android:layout_marginHorizontal="40dp"
+        android:textStyle="bold"
+        android:id="@+id/txt"
+        android:textColor="#ffff"/>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/spn_teacher"/>
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:id="@+id/spn_subjects"/>
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/spn_room"/>
+
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupShift"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:text="Morning"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiobtnShiftMorning" />
+
+        <RadioButton
+            android:text="Evening"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiobtnShiftEvening"/>
+    </RadioGroup>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupSection"
+
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:text="A"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiobtnSectionA" />
+
+        <RadioButton
+            android:text="B"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiobtnSectionB"/>
+        <RadioButton
+            android:text="C"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiobtnSectionC"
+            />
+    </RadioGroup>
+
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:id="@+id/spn_Day"
+        android:entries="@array/Days">
+
+    </Spinner>
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupDegree"
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:text="BS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiobtnDegreeBS" />
+
+        <RadioButton
+            android:text="MSc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiobtnDegreeMSc"/>
+    </RadioGroup>
+
+    <!--<Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/spn_Department"
+        android:entries="@array/Department">
+
+    </Spinner>-->
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/radioGroupDepartment"
+
+        android:orientation="horizontal">
+
+        <RadioButton
+            android:text="CS"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiobtnDepartmentCS" />
+
+        <RadioButton
+            android:text="IT"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiobtnDepartmentIT"/>
+        <RadioButton
+            android:text="SE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/radiobtnDepartmentSE" />
+    </RadioGroup>
+    <Spinner
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/spn_Semester"
+        android:entries="@array/Semester">
+
+    </Spinner>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ettimer"
+        android:inputType="text"
+        android:hint="Enter Time Slot"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/etdate"
+        android:inputType="date"
+        android:layout_marginLeft="10dp"
+        android:hint="Enter Date (yyyy-MM-dd*)"
+       />
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:id="@+id/btn_timetable"
+        android:text="Insert Timetable"/>
+
+
+</LinearLayout>

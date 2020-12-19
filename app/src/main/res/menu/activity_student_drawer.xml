@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/teacher_status"
+            android:icon="@drawable/ic_status"
+            android:title="Teacher Status"
+            />
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/ic_feedback"
+            android:title="Feedback" />
+        <item
+            android:id="@+id/attendance"
+            android:icon="@drawable/ic_attendance"
+            android:title="View Attendance" />
+        <item
+            android:id="@+id/result"
+            android:icon="@drawable/ic_result"
+            android:title="View Result" />
+        <item
+            android:id="@+id/schedule"
+            android:icon="@drawable/ic_schedule"
+            android:title="View Schedule" />
+        <item
+            android:id="@+id/notif"
+            android:icon="@drawable/ic_notification"
+            android:title="View Notification" />
+    </group>
+
+    <item android:title="Account">
+        <menu>
+            <item
+                android:id="@+id/logout"
+                android:icon="@drawable/ic_logout"
+                android:title="Logout" />
+        </menu>
+    </item>
+
+</menu>

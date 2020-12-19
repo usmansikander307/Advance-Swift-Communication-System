@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.cancer.ascs">
+
+    <!-- To auto-complete the email text field in the login form with the user's emails -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PROFILE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Student_Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Teacher_Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Admin_Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Do_Login"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".StudentActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_student"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".TeacherActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_teacher"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".AdminActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_admin"
+            android:theme="@style/AppTheme" />
+        <activity
+            android:name=".DataOperatorActivity"
+            android:screenOrientation="portrait"
+            android:label="@string/title_activity_data_operator"
+            android:theme="@style/AppTheme" />
+        <activity android:name=".NewProductActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ViewProductActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".UpdateProductActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".DeleteProductActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".UpdateTeacherActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".TeacherDeleteActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ViewAllTeacher"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".AddTeacher"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".DOUpdateActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".DoDeleteActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".NewDoActivity"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".ShowAllOperator"
+            android:screenOrientation="portrait"></activity>
+    </application>
+
+</manifest>

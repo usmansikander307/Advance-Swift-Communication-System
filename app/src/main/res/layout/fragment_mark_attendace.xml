@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MarkAttendaceFragment">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <Spinner
+            android:id="@+id/subjects_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <Spinner
+            android:id="@+id/sections_spinner"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"/>
+
+        <Button
+            android:id="@+id/fetch"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Take attandance"
+            />
+
+        <TextView
+            android:id="@+id/aridnum"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="50dp"/>
+        <Button
+            android:id="@+id/present"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="present"/>
+        <Button
+            android:id="@+id/absent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Absent"/>
+
+
+    </LinearLayout>
+</FrameLayout>

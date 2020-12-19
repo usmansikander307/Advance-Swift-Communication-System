@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/bgmain"
+    tools:context=".TeacherProfileFragment">
+
+  <ImageView
+      android:layout_width="match_parent"
+      android:layout_height= "150dp"
+      android:id="@+id/sp"
+      android:src="@drawable/splashscreen"
+      />
+
+    <TextView
+        android:id="@+id/profile"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_below="@+id/sp"
+        android:layout_marginEnd="17dp"
+        android:layout_marginHorizontal="30dp"
+        android:text="TEACHER PROFILE"
+        android:textSize="30sp"
+        android:textStyle="bold" />
+    <TextView
+        android:id="@+id/txtname"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/profile"
+        android:layout_marginLeft="10dp"
+        android:text="Name:"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtstd"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/profile"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/txtname"
+        android:hint="Name"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtclass"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtstd"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text="Email:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtdbclass"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtstd"
+        android:layout_marginTop="10dp"
+        android:layout_toRightOf="@id/txtclass"
+        android:hint="Email"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtshift"
+        android:layout_width="168dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/txtclass"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:text="Contact#:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtdbshift"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdbclass"
+        android:layout_marginTop="22dp"
+        android:layout_toRightOf="@id/txtname"
+        android:hint="Contact#"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtqual1"
+        android:layout_width="168dp"
+        android:layout_height="39dp"
+        android:layout_below="@id/txtshift"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="47dp"
+        android:text="Qualification:"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/txtqual"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/txtdbshift"
+        android:layout_marginTop="48dp"
+        android:layout_toRightOf="@id/txtshift"
+        android:hint="Qualification"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+
+</RelativeLayout>
